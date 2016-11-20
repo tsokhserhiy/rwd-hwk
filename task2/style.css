@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #d3d3d3;
+  color: #b9b9b9;
+  text-align: center;
+  font-size: 150%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .large {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .large {
+    display: none;
+  }
+  .device {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .device {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+}
