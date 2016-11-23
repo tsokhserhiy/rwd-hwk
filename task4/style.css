@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.rwd {
+  width: 95%;
+  margin: 10px auto;
+}
+
+.blue {
+  background: #38C8FE;
+  height: 20vh;
+}
+
+.orange {
+  background: #FFAF47;
+  height: 20vh;
+}
+
+.red {
+  background: #FF7747;
+  height: 50vh;
+}
+
+.yellow {
+  background: #FFD647;
+  height: 30vh;
+}
+
+.pink {
+  background: #FDC1FF;
+  height: 20vh;
+  display: none;
+}
+
+.blue, .orange, .red, .yellow, .pink {
+    border: 6px solid white;
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+	.pink {
+		display: block;
+	}
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
