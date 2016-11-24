@@ -1,0 +1,23 @@
+.button {
+  text-decoration:none;
+  text-align:center;
+  padding:15px 64px;
+  border:solid 9px #a7aeb0;
+  border-radius: 21px;
+  font:27px "Lucida Console", Monaco, monospace;
+  font-weight:bold;
+  color:#4c4d4d;
+  background-color: #9fa6a8;
+  background: linear-gradient(to bottom, rgba(223,223,223,1) 0%, rgba(210,210,210,1) 50%, rgba(199,199,199,1) 51%, rgba(170,170,170,1) 100%);
+  box-shadow: 0px 0px 3px #7a7373, inset 0px 0px 20px #524c4c;
+  margin: 15px;
+  position: absolute;
+}
+
+span {
+  color: #888888;
+}
+
+.border {
+  border: solid 9px #FFFFFF;
+}
