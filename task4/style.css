@@ -30,7 +30,6 @@
 
 .pink {
   background: #FDC1FF;
-  height: 20vh;
   display: none;
 }
 
@@ -39,8 +38,12 @@
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
-	.pink {
+  .blue, .orange {
+    height: 10vh;
+  }
+  .pink {
 		display: block;
+    height: 10vh;
 	}
 }
 
