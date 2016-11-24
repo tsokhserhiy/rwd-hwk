@@ -1,0 +1,189 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.yellow [class^="yellow-"] {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+
+  .red {
+    width: 100%;
+    height: 10vh;
+    background: #FF0000;
+    margin-bottom: 10px;
+  }
+
+  .yellow {
+    order: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .yellow [class^="yellow-"]:first-child {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    background: #FFFF00;
+    margin-bottom: 10px;
+  }
+
+  .orange {
+    order: 2;
+    width: 100%;
+    height: 40vh;
+    background-color: #FFA500;
+    margin-bottom: 10px;
+  }
+
+  .green {
+    order: 3;
+    width: 100%;
+    height: 40vh;
+    background-color: #008000;
+    margin-bottom: 10px;
+  }
+
+  .pink {
+    order: 4;
+    width: 100%;
+    height: 40vh;
+    background-color: #FFC0CB;
+    margin-bottom: 10px;
+  }
+
+  .blue {
+    order: 5;
+    width: 100%;
+    height: 40vh;
+    background-color: #0000FF;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .red {
+    width: 100%;
+    height: 10vh;
+    background: #FF0000;
+    margin-bottom: 10px;
+  }
+
+  .orange {
+    order: 1;
+    width: 73%;
+    height: 20vh;
+    background-color: #FFA500;
+    margin-bottom: 10px;
+  }
+
+  .green {
+    order: 1;
+    width: 26%;
+    height: 20vh;
+    background-color: #008000;
+    margin-bottom: 10px;
+  }
+
+  .yellow {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .yellow [class^="yellow-"]:first-child {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    background: #FFFF00;
+    margin-bottom: 10px;
+  }
+
+  .pink {
+    order: 3;
+    width: 100%;
+    height: 50vh;
+    background-color: #FFC0CB;
+    margin-bottom: 10px;
+  }
+
+  .blue {
+    order: 4;
+    width: 100%;
+    height: 20vh;
+    background-color: #0000FF;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+    .red {
+      width: 100%;
+      height: 10vh;
+      background: #FF0000;
+      margin-bottom: 10px;
+    }
+
+    .orange {
+      width: 100%;
+      height: 20vh;
+      background-color: #FFA500;
+      margin-bottom: 10px;
+    }
+
+    .yellow {
+      order: 1;
+      width: 75%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+
+    .yellow [class^="yellow-"] {
+      display: flex;
+      width: 48%;
+      height: 30vh;
+      background: #FFFF00;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .green {
+      order: 2;
+      width: 25%;
+      height: 45vh;
+      background-color: #008000;
+      margin-bottom: 10px;
+    }
+
+    .pink {
+      order: 3;
+      width: 73%;
+      height: 50vh;
+      background-color: #FFC0CB;
+      margin-bottom: 10px;
+    }
+
+    .blue {
+      order: 4;
+      width: 25%;
+      height: 45vh;
+      background-color: #0000FF;
+      margin-bottom: 10px;
+      margin-top: -17vh;
+    }
+}
